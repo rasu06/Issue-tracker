@@ -1,0 +1,7 @@
+1=> Used chancejs for generating Id for every issue.
+2=> use localStorage for storing issue array.
+    * localStorage is used to store data with no expiration time(until we delete it).
+    * sessionStorage can also be used to store the data but data will be removed when page is closed.
+    * It is just an object having key-value pairs. 
+    **** localStorage only supports strings. Use JSON.stringify() and JSON.parse().
+
